@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="cssAula1.css" />
+    <title>Site Nicolas Wolf</title>
+  </head>
+  <style></style>
+  <body>
+    <header>
+      <div class="box">
+        <nav>
+          <ul>
+            <li><a href="exec.html"> Sobre mim </a></li>
+            <li><a href="aula29-10.html"> Redes Sociais </a></li>
+            <li><a href="formularios.html"> Contato </a></li>
+          </ul>
+        </nav>
+      </div>
+      <hr />
+    </header>
+    <main>
+      <h1 font>Página Web do Nicolas Wolf</h1>
+      <!-- TITULO DA PAGINA -->
+      <p>
+        Essa página é um exercicio em aula para <br />
+        fazermos um site básico usando HTML para <br />
+        fazer o site.
+      </p>
+
+      <h2>Esse é um titulo H2</h2>
+
+      <img
+        class="pablo"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTireVerwm3OJ4dxRat03E_vhh9dJh3kVu9fA&s"
+      />
+      <h3>Esse é um titulo h3</h3>
+
+      <pre>
+ Posso escrever do jeito que eu quiser
+            nesse paragrafo, usando a tag PRE, consigo                              deixar
+            a escrita             do        mesmo jeito que o código está.
+        </pre>
+
+      <hr/>
+
+      <i> FRASE EM ITALICO </i><br />
+      <b> FRASE EM NEGRITO </b>
+
+      <ul>
+        <p>LISTA NAO ORDENADA</p>
+      </ul>
+      <li>3</li>
+      <li>1</li>
+      <li>2</li>
+
+      <ol>
+        SEXO ORDENADO
+      </ol>
+      <li>sexo 1</li>
+      <li>sexo 2</li>
+      <li>sexo 3</li>
+
+      <hr />
+
+      <p>&copy;</p>
+      <p>&phone;</p>
+      <p>&copy;</p>
+
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/wjXLR4zPpeI?si=oUXPQHEuDJv0gMR3"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/cjD8z7lb09s?si=qtxxj0LPhmnqKJ2c"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <br />
+      <a> TABELA ABAIXO </a>
+      <table bordercolor="blue" border="1"> <!-- TAG QUE CRIA TABELA-->  
+        <th colspan="5">TABELA DE PREÇOS</th> <!-- TH = TAG QUE CRIA AS COLUNAS CIMA P BAIXO-->
+
+            <tr> <!-- TR = TAG QUE CRIA AS LINHAS DA TABELA ESQUERDA - DIREITA -->
+                <th rowspan="5"> HTML5</th> <th rowspan="5">IFMS</th> 
+            </tr>
+
+            <tr>
+                <td align="center">Produto</td> <td align="center">Valor</td>
+            </tr>
+
+            <tr>
+                <td align="center">Playstation 4</td> <td align="center">R$ 2.000,00</td>
+            </tr>
+
+            <tr>
+                <td align="center">Xbox One</td> <td align="center">R$ 2.000,00</td>
+            </tr>
+
+            <tr>
+                <td align="center">Nintendo Wii</td> <td align="center">R$ 1.800,00</td>
+            </tr>   
+
+            <tr>
+                <td colspan="4" align="center">Mesclando células</td>
+            </tr>
+    </table>
+    <br>
+    <br>
+    <form name="formTeste" action="processing.php" method="post"></form>
+
+        <label for="firstName">Primeiro nome</label>
+        <input type="text" placeholder="Primeiro nome" name="txtName" id="firstName" maxlength="10" size="20px" autofocus>
+        <br>
+        <br>
+        <label for="lastName">Ultimo Nome</label>
+        <input type="text" placeholder="Último nome" name="txtLastName" id="lastName" maxlength="10" size="20px">
+        <br>
+        <br>
+        <input type="text" name="txtTeste" id="textName" placeholder="ESTA CAIXA ESTA DESABILITADA" disabled size="30px">
+        <br>
+        <br>
+        <input type="hidden" name="" id="">
+    </main>
+
+    <footer>
+      <p>Esse é o footer da página</p>
+    </footer>
+  </body>
+</html>

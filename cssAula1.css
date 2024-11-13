@@ -1,0 +1,18 @@
+body {
+    background-color: aqua;
+    
+}
+
+.box li {
+    text-decoration: none;
+    text-transform: none;
+    list-style: none;
+    text-align: center;
+
+}
+
+.pablo {
+    display: flex;
+    align-content: end;
+    
+}
